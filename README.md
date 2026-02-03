@@ -36,3 +36,20 @@ This project is an AI-powered breast cancer detection system that uses a Convolu
 ---
 
 ## Project Structure
+BreastCancer_CNN/
+│
+├── app.py # Flask backend
+├── breast_cancer_mobilenet.h5 # Trained CNN model
+├── uploads/ # Uploaded images
+│
+├── breastguard-react/ # React frontend
+│ ├── src/
+│ │ ├── App.tsx
+│ │ ├── main.tsx
+│ │ ├── App.css
+│ │ └── index.css
+│ ├── index.html
+│ ├── package.json
+│ └── vite.config.ts
+│
+└── README.md
