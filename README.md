@@ -53,3 +53,18 @@ BreastCancer_CNN/
 │ └── vite.config.ts
 │
 └── README.md
+---
+
+## Installation and Setup
+
+### Backend (Flask)
+
+```bash
+cd BreastCancer_CNN
+pip install flask flask-cors tensorflow numpy pillow
+python app.py
+http://127.0.0.1:5000
+cd breastguard-react
+npm install
+npm run dev
+http://localhost:5173
